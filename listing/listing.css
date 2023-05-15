@@ -1,0 +1,122 @@
+body{
+    margin:0px;
+    background-color:rgb(182, 223, 239);
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+/* header section */
+header{
+    height:50px;
+    /* border:5px solid red; */
+    background-color:rgb(231, 49, 49);
+}
+#title{
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:1%;
+}
+.title1{
+    float:right;
+    border:2px solid white;
+    margin-left:2%;
+    font-size:20px;
+    font-weight:bold;
+    position:relative;
+    bottom:25px;
+}
+
+#content{
+    width:85%;
+    margin-left:7.5%;
+    /* border:5px solid brown; */
+    display:flex;
+}
+
+#filter{
+    height:500px;
+    width:20%;
+    border:5px groove black;
+    margin-left:2%;
+    margin-top:4%;
+}
+
+h1{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+#tiles{
+    /* height:500px; */
+    width:70%;
+    /* border:5px solid rgb(206, 192, 255); */
+    margin-left:5%;
+    margin-top:2%;
+}
+.image{
+    height:200px;
+    width:40%;
+    /* border:5px solid red; */
+    float:left;
+    margin-top:2%;
+}
+.image img{
+    height:100%;
+    width:100%;
+}
+.head{
+    height:200px;
+    width:55%;
+    /* border:5px solid black; */
+    float:left;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.name{
+    font-size:30px;
+    color:rgb(225, 158, 91);
+}
+.tags{
+    height:40px;
+    width:70px;
+    /* border:2px solid red; */
+    float:left;
+    margin:5%;
+    background-color:aqua;
+    border-radius:20%;
+    text-align:center;
+}
+/* footer section */
+footer{
+    /* height:100px; */
+    width:100%;
+    border:5px solid red;
+    background-color:rgb(231, 49, 49);
+    display:inline-block;
+}
+#footheading{
+    font-size:40px;
+    font-weight:bold;
+}
+.footsubheading{
+    height:200px;
+    width:19%;
+    /* border:5px solid red; */
+    float:left;
+    margin-top:2%;
+    margin-left:1%;
+}
+.foothead{
+    font-size:20px;
+    font-weight:bold;
+}
+.footsubhead{
+    margin:1%;
+}
+.links{
+    height:30px;
+    width:30px;
+}
